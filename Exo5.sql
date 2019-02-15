@@ -8,4 +8,4 @@ SELECT AVG(SALAIRE) AS Salaires, AVG(COMMISSION) AS Commission FROM employes;
 SELECT MAX(SALAIRE) AS Salaires, MIN(COMMISSION) AS Commission FROM employes;
 
 -- Affiche le nombre distinct de fonction.
-SELECT DISTINCT COUNT(FONCTION) AS Fonction FROM employes;
+SELECT COUNT(distinct FONCTION) AS Fonction FROM employes;
